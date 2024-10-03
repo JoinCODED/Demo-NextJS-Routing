@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  pad: 10px;
-}
-
-.logo {
-  width: 80px;
-}
-.navItems {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  justify-content: flex-end;
-}
-
 .mainHeading {
   display: flex;
   justify-content: center;
@@ -77,12 +61,4 @@
   gap: 10px;
   padding: 10px;
   justify-content: center;
-}
-
-.navItem {
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  padding: 10px;
 }
