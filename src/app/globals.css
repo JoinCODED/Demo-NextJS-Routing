@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  pad: 10px;
+}
+
+.logo {
+  width: 80px;
+}
+.navItems {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.mainHeading {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bookDetailContainer {
+  display: flex;
+  gap: 10px;
+}
+.bookDetails {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.bookDetails2 {
+  width: 70%;
+}
+
+.bookList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.houseCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.houseCard img {
+  width: 300px;
+}
+
+.houseList {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.navItem {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
