@@ -1,4 +1,4 @@
-const harryPotterBooks = [
+const books = [
   {
     bookName: "Harry Potter and the Philosopher's Stone",
     releaseYear: 1997,
@@ -57,4 +57,4 @@ const harryPotterBooks = [
   },
 ];
 
-export default harryPotterBooks;
+export default books;

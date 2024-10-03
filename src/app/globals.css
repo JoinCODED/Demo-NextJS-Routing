@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bookCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  border: 1px solid lightgray;
-  padding: 10px;
-  border-radius: 10px;
-}
-
 .bookDetailContainer {
   display: flex;
   gap: 10px;
@@ -25,11 +14,4 @@
 
 .bookDetails2 {
   width: 70%;
-}
-
-.bookList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
 }
