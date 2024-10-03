@@ -1,17 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.bookDetailContainer {
-  display: flex;
-  gap: 10px;
-}
-.bookDetails {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-}
-
-.bookDetails2 {
-  width: 70%;
-}
