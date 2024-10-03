@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.mainHeading {
-  display: flex;
-  justify-content: center;
-  height: 50vh;
-  align-items: center;
-  flex-direction: column;
-}
-
 .bookCard {
   display: flex;
   flex-direction: column;
@@ -40,25 +32,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}
-.houseCard {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid gray;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.houseCard img {
-  width: 300px;
-}
-
-.houseList {
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-  justify-content: center;
 }
