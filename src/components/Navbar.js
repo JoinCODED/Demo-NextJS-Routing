@@ -15,8 +15,8 @@ function Navbar() {
         />
       </div>
       <ul className="flex justify-end gap-3 list-none">
-        <NavItem name={"Houses"} />
-        <NavItem name={"Books"} />
+        <NavItem name="Houses" />
+        <NavItem name="Books" />
       </ul>
     </nav>
   );
