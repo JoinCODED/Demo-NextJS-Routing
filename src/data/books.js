@@ -1,5 +1,7 @@
 const books = [
   {
+    id: 1,
+    slug: "philosophers-stone",
     bookName: "Harry Potter and the Philosopher's Stone",
     releaseYear: 1997,
     image:
@@ -8,6 +10,8 @@ const books = [
       "The first book in the Harry Potter series, introducing Harry Potter and his adventures at Hogwarts School of Witchcraft and Wizardry.",
   },
   {
+    id: 2,
+    slug: "chamber-of-secrets",
     bookName: "Harry Potter and the Chamber of Secrets",
     releaseYear: 1998,
     image:
@@ -16,6 +20,8 @@ const books = [
       "Harry returns to Hogwarts for his second year, where he uncovers a dark force that is terrorizing the school.",
   },
   {
+    id: 3,
+    slug: "prisoner-of-azkaban",
     bookName: "Harry Potter and the Prisoner of Azkaban",
     releaseYear: 1999,
     image:
@@ -24,6 +30,8 @@ const books = [
       "In his third year at Hogwarts, Harry faces the dangerous Sirius Black, who has escaped from Azkaban prison.",
   },
   {
+    id: 4,
+    slug: "goblet-of-fire",
     bookName: "Harry Potter and the Goblet of Fire",
     releaseYear: 2000,
     image:
@@ -32,6 +40,8 @@ const books = [
       "Harry is unexpectedly entered into the Triwizard Tournament, a dangerous magical competition held at Hogwarts.",
   },
   {
+    id: 5,
+    slug: "order-of-the-phoenix",
     bookName: "Harry Potter and the Order of the Phoenix",
     releaseYear: 2003,
     image:
@@ -40,6 +50,8 @@ const books = [
       "Harry faces a challenging fifth year at Hogwarts, dealing with the rise of Lord Voldemort and a new, tyrannical teacher.",
   },
   {
+    id: 6,
+    slug: "half-blood-prince",
     bookName: "Harry Potter and the Half-Blood Prince",
     releaseYear: 2005,
     image:
@@ -48,6 +60,8 @@ const books = [
       "As the war against Voldemort intensifies, Harry discovers more about the Dark Lord's past, aided by a mysterious book.",
   },
   {
+    id: 7,
+    slug: "deathly-hallows",
     bookName: "Harry Potter and the Deathly Hallows",
     releaseYear: 2007,
     image:
