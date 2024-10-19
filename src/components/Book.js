@@ -12,7 +12,6 @@ function Book() {
           height={300}
         />
       </div>
-
       <div className="w-2/3">
         <h2>{books[0].bookName}</h2>
         <h6>Release Year: {books[0].releaseYear}</h6>
