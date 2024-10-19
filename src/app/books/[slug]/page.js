@@ -1,8 +1,12 @@
 import books from "@/data/books";
 import Image from "next/image";
+import { redirect } from "next/navigation";
 
 function Book({ params }) {
   const book = books.find(book => book.slug === params.slug)
+
+  if (!book) redirect('/books')
+
   return (
     <div className="flex gap-3 p-3">
       <div className="w-1/3 flex justify-center">
