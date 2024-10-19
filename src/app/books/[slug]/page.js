@@ -2,7 +2,7 @@ import books from "@/data/books";
 import Image from "next/image";
 
 function Book({ params }) {
-  const book = books.find(book => book.id === +params.id)
+  const book = books.find(book => book.slug === params.slug)
   return (
     <div className="flex gap-3 p-3">
       <div className="w-1/3 flex justify-center">
