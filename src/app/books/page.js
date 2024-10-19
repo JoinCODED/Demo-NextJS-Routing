@@ -1,7 +1,6 @@
+import BookList from "@/components/BookList"
+import Navbar from "@/components/Navbar"
 import books from "@/data/books"
-
-import BookList from "./BookList"
-import Navbar from "./Navbar"
 
 function Books() {
   return (

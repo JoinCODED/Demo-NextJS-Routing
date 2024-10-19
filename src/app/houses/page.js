@@ -1,7 +1,6 @@
+import HouseList from "@/components/HouseList";
+import Navbar from "@/components/Navbar";
 import houses from "@/data/houses";
-
-import HouseList from "./HouseList";
-import Navbar from "./Navbar";
 
 function Houses() {
   return (
